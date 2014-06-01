@@ -16,7 +16,7 @@ apt-get install -y git-core
 # Install Python 3.2
 apt-get install -y python3
 
-# Clone Factsviz in /vagrant
-cd /vagrant
-git clone git@github.com:seertech/factsviz.git
+# Clone Factsviz in /vagrant -- still not working
+# cd /vagrant
+# git clone git@github.com:seertech/factsviz.git
 
