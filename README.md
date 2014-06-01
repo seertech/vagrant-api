@@ -1,4 +1,8 @@
-vagrant-mongodb-basic
+vagrant-factsviz
 =====================
 
-Basic (Generic) MongoDB setup using Vagrant
+Basic (Generic) setup of Factsviz:
+
+* mongodb
+* git
+* python3 

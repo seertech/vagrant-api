@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-
 export DEBIAN_FRONTEND=noninteractive
 
 # Install MongoDB
@@ -13,4 +12,11 @@ apt-get -y install mongodb-org
 
 # Install Git
 apt-get install -y git-core
+
+# Install Python 3.2
+apt-get install -y python3
+
+# Clone Factsviz in /vagrant
+cd /vagrant
+git clone git@github.com:seertech/factsviz.git
 
