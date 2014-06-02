@@ -35,6 +35,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Assumes that there is no MongoDB Server running in the host
   config.vm.network "forwarded_port", guest: 27017, host: 27017
 
+  # Forward port for node.js at 3000
+  config.vm.network "forwarded_port", guest:3000, host: 3000
+
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
   # config.vm.network "private_network", ip: "192.168.33.10"
