@@ -16,7 +16,15 @@ apt-get install -y git-core
 # Install Python 3.2
 apt-get install -y python3
 
+# Install node.js
+apt-get install python-software-properties
+add-apt-repository -y ppa:chris-lea/node.js
+apt-get update
+apt-get install -y nodejs
+
 # Clone Factsviz in /vagrant -- still not working
 # cd /vagrant
 # git clone git@github.com:seertech/factsviz.git
+
+
 
