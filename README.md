@@ -7,3 +7,5 @@ Basic (Generic) setup of Factsviz:
 * git
 * python3 
 * node.js
+
+WARNING: Do not use for production!
