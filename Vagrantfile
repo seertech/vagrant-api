@@ -5,7 +5,7 @@
 VAGRANTFILE_API_VERSION = "2"
 
 # Change as you see fit (e.g. "lamp", "web").
-VAGRANT_HOSTNAME = "factsviz"
+VAGRANT_HOSTNAME = "api"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # All Vagrant configuration is done here. The most common configuration

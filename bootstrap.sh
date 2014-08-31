@@ -27,10 +27,6 @@ apt-get install -y nodejs
 npm install -g express
 npm install -g express-generator
 
-# Clone Factsviz in /vagrant -- still not working
-# cd /vagrant
-# git clone git@github.com:seertech/factsviz.git
-
 # Install CURL
 apt-get install -y curl
 

@@ -1,7 +1,7 @@
-vagrant-factsviz
+vagrant-api
 =====================
 
-Basic (Generic) setup of Factsviz:
+Basic (Generic) setup of API:
 
 * mongodb
 * git
