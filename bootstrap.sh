@@ -46,5 +46,14 @@ npm install -g express-generator
 # Install CURL
 apt-get install -y curl
 
+# Install make
+apt-get install -y make
+
+# Install Ruby 1.9.3
+apt-get install -y ruby1.9.3
+
+# Install gems
+gem install rails
+
 
 
