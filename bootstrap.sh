@@ -55,5 +55,9 @@ apt-get install -y ruby1.9.3
 # Install gems
 gem install rails
 
+# Install pip
+apt-get install -y pip
 
+# Install twython
+pip install twython
 
